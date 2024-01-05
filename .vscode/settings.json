@@ -7,4 +7,18 @@
   "explorer.fileNesting.patterns": {
     "spago.dhall": "packages.dhall, .purs-repl"
   },
+  "purescript.addNpmPath": true,
+  "files.watcherExclude": {
+    "**/.spago/**": true,
+    "**/output/**": true,
+    "**/.psci_modules/**": true,
+ },
+ "search.exclude": {
+  "**/node_modules": true,
+  "**/bower_components": true,
+  "**/*.code-search": true,
+  "**/.spago/**": true,
+  "**/output/**": true,
+  "**/.psci_modules/**": true,
+ },
 }

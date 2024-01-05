@@ -2,5 +2,8 @@
   "name": "purescript",
   "version": "0.1.0",
   "devDependencies": {
+    "purescript": "^0.15.14",
+    "purs-tidy": "^0.10.1",
+    "spago": "^0.21.0"
   }
 }
