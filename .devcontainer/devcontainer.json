@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+"updateContentCommand": "npm install",
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"nwolverson.ide-purescript"
+		]
+	}
+}
+}

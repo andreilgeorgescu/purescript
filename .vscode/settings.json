@@ -1,0 +1,10 @@
+{
+  "files.readonlyInclude": {
+    "**/node_modules/**": true,
+    "**/.spago/**": true,
+    "**/.psci_modules/**": true,
+  },
+  "explorer.fileNesting.patterns": {
+    "spago.dhall": "packages.dhall, .purs-repl"
+  },
+}
