@@ -5,7 +5,7 @@
     "**/.psci_modules/**": true,
   },
   "explorer.fileNesting.patterns": {
-    "spago.dhall": "packages.dhall, .purs-repl"
+    "spago.yaml": "spago.lock, .purs-repl"
   },
   "purescript.addNpmPath": true,
   "files.watcherExclude": {
@@ -22,4 +22,8 @@
   "**/.psci_modules/**": true,
  },
   "editor.defaultFormatter": "nwolverson.ide-purescript",
+  "purescript.exportsCodeLens": false,
+  "purescript.censorWarnings": [
+    "WildcardInferredType"
+  ],
 }
